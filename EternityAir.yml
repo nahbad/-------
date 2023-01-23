@@ -1,0 +1,157 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  nameserver:
+  - 114.114.114.114
+  - 223.5.5.5
+  - 8.8.8.8
+  - 9.9.9.9
+  - 1.1.1.1
+  - https://dns.google/dns-query
+  - tls://dns.google:853
+proxies:
+- name: 🇸🇬SG-54.151.193.161-134 | 14.19MB
+  server: 00000000000000000000000000000000000000000000000000000000000025a.node-for-bigairport.win
+  port: 52356
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇯🇵JP-54.238.46.12-118 | 0.436MB
+  server: 00000000000000000000000000000000000000000000000000000000000004a.node-for-bigairport.win
+  port: 443
+  type: vmess
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 🇨🇳CN-203.156.217.4-533 | 0.414MB
+  server: tongzhi.838501.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dce559a-f663-426d-94e2-abe43c1a827f
+- name: 🇨🇳CN-203.156.217.4-537 | 0.387MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13065
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dce559a-f663-426d-94e2-abe43c1a827f
+- name: 🇨🇳CN-203.156.217.4-534 | 0.373MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13082
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dce559a-f663-426d-94e2-abe43c1a827f
+- name: 🇨🇳CN-203.156.217.4-531 | 0.354MB
+  server: tongzhi.838501.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dce559a-f663-426d-94e2-abe43c1a827f
+- name: 🇨🇳CN-203.156.217.4-535 | 0.346MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13081
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dce559a-f663-426d-94e2-abe43c1a827f
+- name: 🇨🇳CN-203.156.217.4-536 | 0.342MB
+  server: sh-jp-dx-iplc.810823.xyz
+  port: 13001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 6dce559a-f663-426d-94e2-abe43c1a827f
+proxy-groups:
+- name: Global ©️
+  type: select
+  proxies:
+  - Global - UrlTest(Tiers) 🥶
+  - Global - Fallback(Tiers) 🌎
+  - Global - LoadBalance(ch) 🦄
+  - Global - LoadBalance(rr) 🍄
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Global - UrlTest(Tiers) 🥶
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  proxies:
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Global - Fallback(Tiers) 🌎
+  type: fallback
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  proxies:
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Global - LoadBalance(ch) 🦄
+  type: load-balance
+  strategy: consistent-hashing
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  proxies:
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Global - LoadBalance(rr) 🍄
+  type: load-balance
+  strategy: round-robin
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  proxies:
+  - Tier 1 🚀
+  - Tier 2 ⚡️
+  - Tier 3 💎
+  - Tier 4 🗿
+- name: Tier 1 🚀
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies:
+  - 🇸🇬SG-54.151.193.161-134 | 14.19MB
+  - 🇯🇵JP-54.238.46.12-118 | 0.436MB
+- name: Tier 2 ⚡️
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies:
+  - 🇨🇳CN-203.156.217.4-533 | 0.414MB
+  - 🇨🇳CN-203.156.217.4-537 | 0.387MB
+- name: Tier 3 💎
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies:
+  - 🇨🇳CN-203.156.217.4-534 | 0.373MB
+  - 🇨🇳CN-203.156.217.4-531 | 0.354MB
+- name: Tier 4 🗿
+  type: url-test
+  url: http://clients3.google.com/generate_204
+  interval: 300
+  tolerance: 100
+  proxies:
+  - 🇨🇳CN-203.156.217.4-535 | 0.346MB
+  - 🇨🇳CN-203.156.217.4-536 | 0.342MB
+rules:
+- MATCH,Global ©️
