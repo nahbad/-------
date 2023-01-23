@@ -1,0 +1,56 @@
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君), server: 172.104.207.231, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君) 2, server: 172.104.207.231, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君) 3, server: 172.104.207.231, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君) 4, server: 172.104.207.231, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君) 5, server: 172.104.207.231, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君) 6, server: 172.104.207.231, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇮🇳 印度(欢迎订阅Youtube破解资源君) 7, server: 172.104.207.231, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君), server: 172.105.180.227, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 2, server: 172.105.180.227, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 3, server: 172.105.180.227, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 4, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 5, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 6, server: 134.195.196.128, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 7, server: 134.195.196.128, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 8, server: 134.195.196.128, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 9, server: 134.195.196.128, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 10, server: 134.195.196.128, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 11, server: 134.195.196.128, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 12, server: 134.195.196.128, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 13, server: 134.195.196.128, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 14, server: 134.195.196.128, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 15, server: 134.195.196.128, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 16, server: 134.195.196.150, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 17, server: 134.195.196.150, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 18, server: 167.88.63.28, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君), server: 134.195.196.128, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 2, server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 3, server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇸 美国(欢迎订阅Youtube破解资源君) 4, server: hk1.4kxray.xyz, port: 4848, type: vmess, uuid: efef2a3a-ce10-328b-b65c-eeae36eb9345, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /v2ray, headers: {Host: hk1.4kxray.xyz}}}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 19, server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 20, server: 38.75.136.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 21, server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 22, server: 172.104.207.231, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 23, server: 172.104.207.231, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 24, server: 172.104.207.231, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 25, server: 38.68.134.37, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 26, server: 172.104.207.140, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 27, server: 172.104.207.140, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 28, server: 134.195.196.71, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 29, server: 198.57.27.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 30, server: 198.57.27.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 31, server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 32, server: 198.57.27.152, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 33, server: 134.195.196.193, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 34, server: 198.57.27.184, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 35, server: 198.57.27.184, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 36, server: 38.121.43.71, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 37, server: 167.88.63.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 38, server: 212.38.189.174, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 39, server: 212.38.189.174, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 40, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 41, server: 46.29.219.246, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 42, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 43, server: 46.29.219.246, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 44, server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇪🇺 欧洲(欢迎订阅Youtube破解资源君) 45, server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
