@@ -57,19 +57,19 @@ jobs:
           node ./utils/localserver/index.js &
           sleep 2
           python ./utils/list_merge.py
-      - name: Commit Changes
-        run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
-          git pull origin master
-          git add ./sub
-          git add ./utils/Country.mmdb
-          git checkout master
-          git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
-      - name: Push Changes
-        uses: ad-m/github-push-action@master
-        with:
-          branch: master
+      #- name: Commit Changes
+        #run: |
+        #  git config --local user.email "actions@github.com"
+        #  git config --local user.name "GitHub Actions"
+        #  git pull origin master
+        #  git add ./sub
+        #  git add ./utils/Country.mmdb
+        #  git checkout master
+        #  git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
+      #- name: Push Changes
+        #uses: ad-m/github-push-action@master
+        #with:
+        #  branch: master
 
       - name: Run Lite Speedtest
         run: |
