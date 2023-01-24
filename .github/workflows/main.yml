@@ -10,13 +10,11 @@ on:
       - "./sub/sub_merge_yaml.yml"
 
   schedule:
-    # - cron: '*/5 * * * *'
-    # 表达式生成  https://crontab.guru/
     - cron: "0 0,12 * * *"
 
 jobs:
   main:
-    name: Collect & SpeedTest & Filter
+    name: Cron
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -30,25 +28,12 @@ jobs:
         with:
           python-version: "3.x"
           cache: "pip"
-      # setup actions has built-in caching function
-      # - uses: actions/cache@v3
-      #   with:
-      #     path: ~/.cache/pip
-      #     key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-pip-
-      # - uses: actions/cache@v3
-      #   with:
-      #     path: ~/.cache/yarn
-      #     key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-node-
       - name: Set Timezone
         run: sudo timedatectl set-timezone 'Asia/Tehran'
       - name: Install Requirements
         run: |
           pip install -r ./utils/requirements.txt
-      - name: Running Collector
+      - name: (01/03)Collect
         run: |
           wget -O subconverter.tar.gz https://github.com/tindy2013/subconverter/releases/download/v0.7.2/subconverter_linux64.tar.gz
           tar -zxvf subconverter.tar.gz -C ./
@@ -56,7 +41,7 @@ jobs:
           node ./utils/localserver/index.js &
           sleep 2
           python ./utils/list_merge.py
-      - name: Commit Changes
+      - name: (02/03)Commit
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
@@ -64,13 +49,13 @@ jobs:
           git add ./sub
           git add ./utils/Country.mmdb
           git checkout master
-          git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Collected"
-      - name: Push Changes
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') $(curl ifconfig.co/json)"
+      - name: (03/03)Push Changes
         uses: ad-m/github-push-action@master
         with:
           branch: master
 
-      - name: Run Lite Speedtest
+      - name: Test
         run: |
           sleep 5
           sudo sh ./utils/speedtest/speedtest2_yaml.sh
@@ -83,7 +68,7 @@ jobs:
           git add Eternity
           git add ./sub/sub_merge.txt
           git add ./sub/sub_merge_base64.txt
-          git commit -m "✔️ $(date '+%Y-%m-%d %H:%M:%S') Tested"
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') Tested"
       - name: Push Change
         uses: ad-m/github-push-action@master
         with:
