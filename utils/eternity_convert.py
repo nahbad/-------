@@ -110,29 +110,6 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
             proxy_all.append(linee)
 
             indexx += 1
-"""
-    if provider_file_enabled:
-        providers_files = {
-            'all': provider_path + 'provider-all.yml',
-            #             'others': provider_path + 'provider-others.yml',
-            #             'us': provider_path + 'provider-us.yml',
-            #             'hk': provider_path + 'provider-hk.yml',
-            #             'sg': provider_path + 'provider-sg.yml'
-        }
-        eternity_providers = {
-            'all': all_provider,
-            #             'others': others_provider,
-            #             'us': us_provider,
-            #             'hk': hk_provider,
-            #             'sg': sg_provider
-        }
-        print('Writing content to provider')
-        for key in providers_files.keys():
-            provider_all = open(providers_files[key], 'w', encoding='utf-8')
-            provider_all.write(eternity_providers[key])
-            provider_all.close()
-        print('Done!\n')
-"""
     # 创建完全配置的Eternity.yml
     config_f = open(config_file, 'r', encoding='utf-8')
     config_raw = config_f.read()
