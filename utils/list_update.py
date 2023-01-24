@@ -104,7 +104,7 @@ class update_url():
 
             updated_list = json.dumps(
                 raw_list, sort_keys=False, indent=2, ensure_ascii=False)
-            file = open(sub_list_json, 'w', encoding='utf-8')
+            file = open("/home/runner/work/-------/-------/./sub/sub_list.json", 'w', encoding='utf-8')
             file.write(updated_list)
             file.close()
 
