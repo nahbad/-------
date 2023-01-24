@@ -18,7 +18,7 @@ log_file = './LogInfoAir.txt'
 provider_path = './update/provider/'
 update_path = './update/'
 
-sub_list_json = './sub/sub_list.json'
+sub_list_json = '/home/runner/work/-------/-------/./sub/sub_list.json'
 
 config_file = './update/provider/config.yml'
 config_global_file = './update/provider/config-global.yml'

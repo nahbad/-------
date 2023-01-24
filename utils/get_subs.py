@@ -6,7 +6,7 @@ import re
 import os
 import yaml
 
-sub_list_json = './sub/sub_list.json'
+sub_list_json = '/home/runner/work/-------/-------/./sub/sub_list.json'
 sub_merge_path = './sub/'
 sub_list_path = './sub/list/'
 
