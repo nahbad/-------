@@ -5,6 +5,7 @@ import json
 import re
 import os
 import yaml
+import base64
 
 sub_list_json = '/home/runner/work/-------/-------/./sub/sub_list.json'
 sub_merge_path = './sub/'
@@ -42,7 +43,7 @@ class subs:
                         content = sub_convert.main(each_url, 'url', 'url')
                         if content != 'Url 解析错误' and content != '订阅内容解析错误':
                             if subs_function.is_line_valid(content, False) != '':
-                                content_list.append(content)
+                                content_list.append(content.encode("ascii"))
                             else:
                                 print(f'this url failed{each_url}')
                             print(
