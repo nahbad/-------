@@ -41,19 +41,19 @@ jobs:
           node ./utils/localserver/index.js &
           sleep 2
           python ./utils/list_merge.py
-#      - name: (02/03)Commit
-#        run: |
-#          git config --local user.email "actions@github.com"
-#          git config --local user.name "GitHub Actions"
-#          git pull origin master
-#          git add ./sub
-#          git add ./utils/Country.mmdb
-#          git checkout master
-#          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') $(curl ifconfig.co/json)"
-#      - name: (03/03)Push Changes
-#        uses: ad-m/github-push-action@master
-#        with:
-#          branch: master
+      - name: (02/03)Commit
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git pull origin master
+          git add ./sub
+          git add ./utils/Country.mmdb
+          git checkout master
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') $(curl ifconfig.co/json)"
+      - name: (03/03)Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: master
 
       - name: Test
         run: |
