@@ -32,8 +32,6 @@ class update_url():
 
     def update_main(use_airport=False, airports_id: [] = [5], sub_list_json= '/home/runner/work/-------/-------/./sub/sub_list.json'):
         with open(sub_list_json, 'r', encoding='utf-8') as f:  # 载入订阅链接
-            print(f)
-            print(base64.b64encode(f))
             raw_list = json.load(f)
             f.close()
             
