@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import base64
+
 from datetime import timedelta, datetime
 import json
 import re
@@ -28,7 +30,7 @@ def url_updated(url):  # 判断远程远程链接是否已经更新
 
 class update_url():
 
-    def update_main(use_airport=False, airports_id: [] = [5], sub_list_json= '/home/runner/work/-------/-------/./sub/sub_list.json'):
+    def update_main(use_airport=False, airports_id: [] = [5], sub_list_json= '/home/runner/work/-------/-------/./sub/sub_list.json').decode("ascii"):
         with open(sub_list_json, 'r', encoding='utf-8') as f:  # 载入订阅链接
             raw_list = json.load(f)
             f.close()
