@@ -63,6 +63,8 @@ jobs:
       - name: Commit changes
         run: |
           echo "" > ./sub/sub_merge_yaml.yml
+          echo "" > ./sub/sub_merge_base64.txt
+          echo "" > ./sub/sub_merge.txt
           echo "" > ./sub/list/00.txt
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
