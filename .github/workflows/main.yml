@@ -67,6 +67,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
           git pull origin master
+          git add ./sub
           git add Eternity
           git commit -m "$(date '+%Y-%m-%d %H:%M:%S') Tested"
       - name: Push Change
