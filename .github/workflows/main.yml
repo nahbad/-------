@@ -30,6 +30,8 @@ jobs:
           cache: "pip"
       - name: Set Timezone
         run: sudo timedatectl set-timezone 'Asia/Tehran'
+      - name: unz
+        run: unzip test.zip
       - name: Install Requirements
         run: |
           pip install -r ./utils/requirements.txt
