@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: "18.x"
       - name: unz
-        run: 7z x nomad.7z
+        run: unzip nomad.zip
       - uses: bahmutov/npm-install@v1.6.0
         with:
           working-directory: ./utils/localserver
