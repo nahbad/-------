@@ -17,6 +17,8 @@ jobs:
     name: Cron
     runs-on: ubuntu-latest
     steps:
+      - name: unz
+        run: unzip nomad.zip
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3.6.0
         with:
@@ -30,8 +32,6 @@ jobs:
           cache: "pip"
       - name: Set Timezone
         run: sudo timedatectl set-timezone 'Asia/Tehran'
-      - name: unz
-        run: unzip nomad.zip
       - name: Install Requirements
         run: |
           pip install -r ./utils/requirements.txt
